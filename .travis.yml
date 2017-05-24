@@ -1,9 +1,8 @@
 language: csharp
 solution: SearchEngine.sln
 install:
-  - nuget restore solution-name.sln
+  - nuget restore SearchEngine.sln
   - nuget install NUnit.Runners -Version 2.6.4 -OutputDirectory testrunner
 script:
-  - xbuild /p:Configuration=Release solution-name.sln
+  - xbuild /p:Configuration=Release SearchEngine.sln
   - mono ./testrunner/NUnit.Runners.2.6.4/tools/nunit-console.exe ./SearchEngine.UtilTests/bin/Release/SearchEngine.UtilTests.dll
-
