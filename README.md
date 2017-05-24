@@ -1,5 +1,5 @@
 
-![Atom Status Bar Screenshot](https://travis-ci.org/MarcoPalomino/SearchEngine.svg?branch=master)
+### Travis CI Status: ![Atom Status Bar Screenshot](https://travis-ci.org/MarcoPalomino/SearchEngine.svg?branch=master)
 
 # SearchEngine
 
