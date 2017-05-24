@@ -34,9 +34,6 @@ namespace SearchEngine.SearchFactory.Factory
                 var yahooServiceAddress = new StringBuilder();
                 yahooServiceAddress.Append("http://query.yahooapis.com/v1/public/yql?");
 
-                //yahooServiceAddress.Append("q=" + Uri.UnescapeDataString(string.Format("select * from web.search(0,{0}) where query='{1}'", maxNumberOfOcurrences.ToString(), wordToSearch)));
-                //yahooServiceAddress.Append("q=" + Uri.UnescapeDataString(string.Format("select * from google.search(0,{0}) where query='{1}'", maxNumberOfOcurrences.ToString(), wordToSearch)));
-                //yahooServiceAddress.Append("q=" + Uri.UnescapeDataString(string.Format("select * from local.search(0,{0}) where query='{1}'", maxNumberOfOcurrences.ToString(), wordToSearch)));
                 yahooServiceAddress.Append("q=" + Uri.UnescapeDataString(string.Format("select * from local.search(0,{0}) where zip='94085' and query='{1}'", maxNumberOfOcurrences.ToString(), wordToSearch)));
                 yahooServiceAddress.Append("&format=json");
                 yahooServiceAddress.Append("&diagnostics=false");
