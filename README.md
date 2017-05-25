@@ -9,6 +9,6 @@ It is a C# console solution that performs a search engine using the most common 
 * Yahoo
 * Bing (Under construction yet)
 
-The purpose of the application is to show the different mechanisms for performing a search using the SDKs provided by Googe, Yahoo and Bing.
+The purpose of the console application is to show the different mechanisms for getting the total of ocurrences regarding a word provided using the current SDKs available.
 
 As I mentioned, the Bing search engine is under construction yet.
