@@ -1,6 +1,7 @@
 ﻿using System;
 using SearchEngine.Common;
 
+
 namespace SearchEngine.SearchFactory.Factory
 {
     public class BingFactory: ISearch

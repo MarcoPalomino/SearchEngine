@@ -1,15 +1,12 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using NUnit.Framework;
 using SearchEngine.SearchFactory.Factory;
 
-namespace SearchEngine.Util.Tests
+namespace SearchEngineTests
 {
-    [TestClass()]
+    [TestFixture]
     public class GoogleFactoryTests
     {
-        /// <summary>
-        /// 
-        /// </summary>
-        [TestMethod()]
+        [Test]
         public void VerifyGoogleSearchReturnsElements()
         {
             /*Arrange*/
@@ -24,10 +21,7 @@ namespace SearchEngine.Util.Tests
             Assert.AreNotEqual(0, results);
         }
 
-        /// <summary>
-        /// 
-        /// </summary>
-        [TestMethod()]
+        [Test]
         public void VerifyAppIdIsNotEmpty()
         {
             /*Arrange*/
@@ -41,4 +35,5 @@ namespace SearchEngine.Util.Tests
             Assert.AreEqual(true, isValid);
         }
     }
+    
 }
