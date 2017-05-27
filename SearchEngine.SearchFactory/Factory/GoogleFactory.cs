@@ -7,7 +7,7 @@ namespace SearchEngine.SearchFactory.Factory
 {
     public class GoogleFactory : ISearch
     {
-        const string AppId = "AIzaSyC2CJMb33xxIpPYrmntfZ_VwmPmO4nEYw0";
+        const string AppId = "YOUR_APP_ID";
         const string SearchEngineId = "009437644929674769216:pw_6okwojos";
 
         /// <summary>
