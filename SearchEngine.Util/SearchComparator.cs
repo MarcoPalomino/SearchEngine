@@ -38,7 +38,8 @@ namespace SearchEngine.Util
         public List<SearchText> Run() {
 
             var numberOfOcurrences = (long?)0;
-        
+            
+            /* Running the search engine in all words entered */
             WordsToCompare.ForEach(word =>
             {
                 var GoogleComparator = new GoogleFactory();
